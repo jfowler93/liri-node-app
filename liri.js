@@ -92,19 +92,42 @@ function movieSearch(term) {
 
 //function to request song from spotify
 
+function spotifySearch(term) {
+  var song = term;
+  if (!song) {
+      song = "the sign Ace of Base" 
+  }
+  spotify.search({ type: 'track', query: song }, function(err, data) {
+      if (err) {
+        return console.log('Error occurred: ' + err);
+      }
+      var songData = [
+        "Song Name: " + data.tracks.items[0].name,
+        "Artist Name: " + data.tracks.items[0].artists[0].name,
+        "Album Name: " + data.tracks.items[0].album.name,
+        "Preview URL: " + data.tracks.items[0].preview_url,
+      ].join("\n\n");
+      fs.appendFile("log.txt", songData + divider, function (err) {
+        if (err) throw err;
+        console.log(songData);
+
+    });
+  })
+}
+
 function doWhatItSays() {
-  fs.readFile("random.txt", "utf8", function (error, data) {
-    //Return error if error occurs.
+  fs.readFile("random.text", "utf8", function(error, data) {
     if (error) {
       return console.log(error);
     }
-    // Then split it by commas (to make it more readable)
+    console.log(data);
     var dataArr = data.split(",");
-
+    console.log(dataArr);
     if (dataArr[0] === "spotify-this-song") {
       var songcheck = dataArr[1].slice(1, -1);
-      console.log("Song Check: " + songcheck)
+      console.log("Song Check: "+songcheck)
       spotifySearch(songcheck);
-    }
-  })
+  }
+  
+  });
 }
