@@ -1,0 +1,69 @@
+Artist Name: Red Hot Chili Peppers
+
+Concert Time: 10/03/2019, 7:00 PM
+
+Concert Location: Rio De Janeiro,,Brazil
+
+Concert Venue: Rock in Rio [09.27 - 10.06]
+------------------------------------------------------------
+
+Artist Name: Red Hot Chili Peppers,Jenny Lewis,Jack Irons,Lukas Nelson,Nathaniel Rateliff,Ohana,Poolside,John Craigie,Las Cafeteras,Lukas Nelson & Promise of the Real,Mt. Joy,Jacob Banks,Henry Jamison,Lewis Capaldi,THE NIGHT SWEATS
+
+Concert Time: 09/29/2019, 11:00 AM
+
+Concert Location: Dana Point,CA,United States
+
+Concert Venue: Ohana Festival [09.27 - 09.29]
+------------------------------------------------------------
+
+Movie Title: Shrek
+
+Year: 2001
+
+IMDB Rating: 7.8
+
+Rotten Tomatoes: 88%
+
+Country: USA
+
+Language: English
+
+Plot: A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess for the lord in order to get his land back.
+
+Actors: Mike Myers, Eddie Murphy, Cameron Diaz, John Lithgow
+------------------------------------------------------------
+
+Movie Title: Pulp Fiction
+
+Year: 1994
+
+IMDB Rating: 8.9
+
+Rotten Tomatoes: 92%
+
+Country: USA
+
+Language: English, Spanish, French
+
+Plot: The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.
+
+Actors: Tim Roth, Amanda Plummer, Laura Lovelace, John Travolta
+------------------------------------------------------------
+
+Movie Title: Fear and Loathing in Las Vegas
+
+Year: 1998
+
+IMDB Rating: 7.6
+
+Rotten Tomatoes: 49%
+
+Country: USA
+
+Language: English
+
+Plot: An oddball journalist and his psychopathic lawyer travel to Las Vegas for a series of psychedelic escapades.
+
+Actors: Johnny Depp, Benicio Del Toro, Tobey Maguire, Michael Lee Gogin
+------------------------------------------------------------
+
